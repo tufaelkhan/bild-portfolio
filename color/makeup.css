@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    font-family: 'preconnect', sans-serif;
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+    margin: 0 200px;
+    height: 500px;
+    padding: 5px;
+    padding-left: 30px;
+    background-color: blanchedalmond;
+    margin-bottom: 50px;
+
+ 
+}
+.btn-primary{
+    border:0;
+    background: chocolate;
+    color: aliceblue;
+    padding: 10px 15px;
+    height: 40px;
+    border-radius: 5px;
+    margin-left: 50px;
+}
+.btn-secondary{
+    border:0;
+    background: rgb(245, 237, 232);
+    color: rgb(2, 2, 2);
+    padding: 10px 5px;
+    height: 30px;
+    border-radius: 5px;
+}
+.btn-third{
+    border:0;
+    background: chocolate;
+    color: aliceblue;
+    padding: 10px 15px;
+    height: 40px;
+    border-radius: 5px;
+   margin-left: 10px;
+}
+.baner-title{
+    font-size: 45px;
+    font-weight: 800;
+    padding: 50px 70px 20px 50px;
+}
+.baner-description{
+    color: darkslategrey;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 5px 70px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+/* main */
+main{
+    max-width: 691px;
+    margin: 0 auto;
+    text-align: center;
+}
+/* donate today */
+.donate{
+    width: 691px;
+    height: 63px;
+    left: 375px;
+}
+.section-title{
+    font-size: 35px;
+    font-weight: 700 ;
+    padding-bottom: 15px;
+}
+.section-description{
+    font-size: 18px;
+    font-weight: 400px;
+    margin-bottom: 80px;
+
+}
+.list-item{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    list-style: none;
+}
+.btn-don{
+    margin-top: 40px;
+    font-size: 20px;
+    padding: 60px 8px;
+}
+.unorder1{
+    margin: 40px;
+    font-size: 20px;
+    padding: 60px 8px;
+   border-radius: 2px;
+
+}
+.unorder2{
+    margin: 40px;
+    font-size: 20px;
+    padding: 60px 8px;;
+}
+.unorder3{
+    margin-top: 40px;
+    margin-left: 5px;
+    font-size: 20px;
+    padding: 60px 8px;;
+}
+.unorder4{
+    margin: 40px;
+    font-size: 20px;
+    padding: 60px 8px;;
+}
+.middle{
+    margin: 0 200px;
+    text-align: center;
+}
+.middle .btn{
+    margin-bottom: 15px;
+}
+.zero{
+    margin-bottom: 15px;
+}
+/* plan */
+.plan{
+    text-align: center;
+}
+.plan-title{
+    font-size: 35px;
+    font-weight: 700;
+    padding: 15px;
+}
+.plan-description{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+/* help */
+.help-poor{
+    display: flex;
+    margin: 40px 200px;
+}
+.help-poor img{
+   padding: 10px 10px;
+}
+.help-poor .help-title{
+    font-size: 35px;
+    font-weight: 600;
+    padding: 10px;
+}
+.help-poor .help-description{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px;
+    padding-bottom: 40px;
+
+}
+.help-poor .help-one{
+    background-color: rgb(146, 213, 190);
+    margin-right: 15px;
+    padding-bottom: 25px;
+}
+.help-poor .help-two{
+    background-color: rgb(213, 161, 228);
+    margin-right: 15px;
+    padding-bottom: 25px;
+}
+.help-poor .help-three{
+    background-color: rgb(202, 233, 130);
+    margin-right: 15px;
+    padding-bottom: 25px;
+}
+/* ocation */
+.ocation1{
+    display: flex;
+    margin: 100px 200px;
+    justify-content: left;
+   
+}
+.ocation1 .first-help{
+    background-color: rgb(218, 224, 230);
+    text-align: left;
+    margin: 20px;
+    max-width: 1000px;
+
+}
+.ocation1 .first-help .fh{
+    font-size: 35px;
+    font-weight: 600;
+    padding: 10px;
+}
+.ocation1 .first-help .f-title{
+    font-size: 25px;
+    font-weight: 500;
+    padding: 10px;
+
+}
+.ocation1 .first-help .sub-title{
+    font-size: 25px;
+    font-weight: 500;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.ocation2{
+    display: flex;
+    margin: 100px 200px;
+    justify-content: left;
+}
+.ocation2 .second-help{
+    background-color: rgb(240, 245, 250);
+    text-align: left;
+    margin: 20px;
+    max-width: 900px;
+}
+.ocation2 .second-help .sh{
+    font-size: 35px;
+    font-weight: 600;
+    padding: 10px;
+}
+.ocation2 .second-help .s-title{
+    font-size: 25px;
+    font-weight: 500;
+    padding: 10px
+}
+.ocation2 .second-help .sub-s-title{
+    font-size: 25px;
+    font-weight: 500;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.update .up-title{
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px;
+}
+.update .up-sub{
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.field{
+    justify-content: center;
+    text-align: center;
+    border: 0;
+    padding: 70px;
+    background-color: blanchedalmond;
+    max-width: 800px;
+    margin-left: 600px;
+}
+.field .em{
+    font-size: 27px;
+    border: 0;
+}
+.foot{
+    background-color: #1E1E1E;
+    padding-top: 27px;
+    text-align: center;
+    margin-top: 120px;
+}
+.foot-title{
+    color: rgb(246, 7, 7);
+    padding-bottom: 20px;
+    font-size: 35px;
+    font-weight: 700;
+}
+.foot-sub{
+    color: aliceblue;
+    padding-bottom: 15px;
+}
+
